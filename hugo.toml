@@ -1,3 +1,14 @@
 baseURL = 'https://kropsanarki.dk/'
 languageCode = 'da-dk'
-title = Kropsanarki'
+title = 'Kropsanarki'
+theme = 'hugo-theme-stack'
+contentDir = 'content'
+
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
+
+[params]
+rssFullContent = true
