@@ -1,7 +1,7 @@
 baseURL = 'https://kropsanarki.dk/'
 languageCode = 'da-dk'
 title = 'Kropsanarki'
-theme = 'hugo-theme-stack'
+theme = 'anatole'
 contentDir = 'content'
 
 [outputs]
