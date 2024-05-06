@@ -44,3 +44,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ASHY_GLACIER_0E53E4410 }}
           action: "close"
+          app_build_command: "npm run build"
